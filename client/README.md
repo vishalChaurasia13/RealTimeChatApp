@@ -10,3 +10,24 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### To execute the client
+
+now goto RealTimeChatApp/client 
+
+### install these dependencies
+<br>npm install axios @reduxjs/toolkit react-redux 
+<br>npm install redux react-redux axios
+<br>npm install redux-persist
+<br>npm install react-router-dom
+<br>npm install react-bootstrap bootstrap
+<br>npm install react-bootstrap bootstrap
+
+Type this command to execute 
+1. npm run dev
+
+check where the client port where application is running
+1. open browser and type http://localhost:3000/ 
+2. you can goto home page and then register and signup 
+3. open the same link in another tab and register with another user and login 
+4. type receiver name to chat on both ends 
